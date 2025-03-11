@@ -24,16 +24,20 @@
 
     <h1>FORMULÁRIOS</h1>
       <!-- FORMULARIOS -->
-      <form action="#" method="get">
+      <form action="#" method="post">
         <label for="usuario">USUÁRIO:</label>
-        <input type="text" maxlength="10" size="10" id="usuario" name="usuario" class="">
+        <input type="text" maxlength="10" size="10" id="usuario" name="usuario" class="" required>
         <br>
         <label for="senha">SENHA:</label>
-        <input type="password" maxlength="10" size="10" id="senha" name="senha" class="">
+        <input type="password"  minlength="10" maxlength="10" size="10" id="senha" name="senha" class="" required>
         <br>
         <label for="contas">CONTAS:</label>
         <input type="number"  maxlength="10" size="10" min="0" max="20" value="0" id="contas" name="contas" class="">
-        
+        <br>
+        <label for="email">E-MAIL</label>
+        <input type="text" maxlength="10" size="10" id="email" name="email" class="" autocomplete="off">
+        <br>
+        <input type="submit">
       </form>
 
     

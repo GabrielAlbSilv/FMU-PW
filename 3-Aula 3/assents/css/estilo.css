@@ -1,0 +1,48 @@
+/*comentario de uma linha apenas
+/* comentarip de um bloco de codigo */
+
+/* *{} -> seletor universal, aqui posso criar um configuracao padrao para todos os elementos html 
+    #id
+    .classe
+    h1 -> elemento html
+
+*/
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Playwrite+HU:wght@100..400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+HU:wght@100..400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: rgb(46, 43, 43);
+}
+
+
+h1{
+    text-align: center;
+    color: crimson;
+    background-color: black;
+}
+
+p{
+    font-family: "Playwrite HU", cursive;
+    line-height: 30px;
+    color:white;
+}
+
+.fonte-google{
+    margin-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 26px;
+    color: crimson;
+}
+
+#subtitulo{
+    text-align: right;
+    color: #000000;
+    background-color: crimson;
+    padding-right: 10px;
+}

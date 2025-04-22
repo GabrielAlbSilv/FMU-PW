@@ -28,7 +28,22 @@
      // let: variável local
      //var: variável global
      //const: variável do tipo constante (não é possível alterar valor)
-     prompt("Informe o seu nome: ")
+     
+     let nome="<br> Aula de JS <br> "
+     document.write(nome)
+     nome=123 //alterando tipo e conteúdo da variável
+     document.write(nome)
+     const pi=31.48578
+     document.write("<br>"+pi)
+     //if for while switch
+
+     //recebendo valores do usuário
+     //prompt sempre receberá valores como string
+     let aluno=prompt("Digite o seu nome:")
+     let idade=prompt("Digite a sua idade:")
+     //convertendo de string para inteiro
+     idade=parseInt(idade)
+     alert("O nome do aluno é:"+aluno+"\nSua idade é:"+idade)
     </script>
 </head>
 

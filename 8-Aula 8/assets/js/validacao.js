@@ -1,5 +1,13 @@
 function comparaSenhas(){
-
+    let senha = document.getElementById("senha").value
+    let confirmaSenha = document.getElementById("confirmaSenha").value
+    if(senha == confirmaSenha){
+            document.getElementById("senha").style.color="green"
+            document.getElementById("confirmaSenha").style.color="green"
+    }else{
+        document.getElementById("senha").style.color="red"
+        document.getElementById("confirmaSenha").style.color="red"
+    }
 }
 
 function mascaraCep(input) {     

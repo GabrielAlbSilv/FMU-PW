@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/imgs/icon.png">
+     <link rel="stylesheet" href="assets/style.css">
+    <title> Login</title>
+   
+<body>
+    <main class="login-container">
+    <div class="form-login">
+      <h2>CADASTRO</h2>
+      <form method="post" action="gravaUsuario.php">
+         <input id="usuario" type="text" name="usuario" required  maxlength="80" placeholder="Usuario"/>
+        <input id="email" type="email" name="email" required  maxlength="80" placeholder="E-mail"/>
+        <input id="senha"type="password" name="senha" required maxlength="32" placeholder="Senha" />
+        <button type="submit">Cadastrar</button>
+        <a href="index.html" class="btn-secondary btn-small">Voltar</a>
+      </form>
+    </div>
+  </main>
+
+    <script src="assets/js/validacao.js"></script>
+</body>
+</html>
